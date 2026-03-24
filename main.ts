@@ -1,8 +1,19 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: XXX
- * Created on: Sep 2020
- * This program ...
+ * Created by: Angelica O
+ * Created on: Mar 2026
+ * This program Compares numbers
 */
 
-basic.showString('Hello, World!')
+// creates variables
+let Number1 : number = (0,99)
+let Number2 : number = (0,99)
+
+// Press A
+input.onButtonPressed(Button.A, function() {
+  basic.clearScreen()
+  basic.showNumber(Number1)
+  
+})
+
+
